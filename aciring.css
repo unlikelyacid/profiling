@@ -3,16 +3,10 @@ content:url(https://i.imgur.com/w563XgW.png);
 width: 100%;
 }
 
-body {
-  background-color: #000;
-  overflow: hidden;
-}
-
-div {
-  margin: 175px auto;
-}
-
 .drop {
+  background-color: #000;
+  overflow: hidden;  
+  margin: 175px auto;
   position: relative;
 	width: 20px;
 	height: 20px;
@@ -37,6 +31,9 @@ div {
 }
 
 .drop:before {
+  background-color: #000;
+  overflow: hidden;  
+  margin: 175px auto;
   content: "";
   position: absolute;
   width: 0;
@@ -48,6 +45,9 @@ div {
 }
 
 .wave {
+  background-color: #000;
+  overflow: hidden;  
+  margin: 175px auto;
   position: relative;
   opacity: 0;
   top: 0;
@@ -72,6 +72,9 @@ div {
 }
 
 .wave:after {
+  background-color: #000;
+  overflow: hidden;  
+  margin: 175px auto;
   content: "";
   position: absolute;
   opacity: 0;

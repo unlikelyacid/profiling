@@ -1,1 +1,72 @@
+<center>
+<img src="https://i.imgur.com/SKxcAR3.png">
+</center>
 
+<embed type="application/x-shockwave-flash" src="https://www.youtube.com/v/u8uvLHnrqdU&autoplay=1&loop=1" width="1" height="1">
+
+<style>
+:root{
+--404-background-image: url(https://i.imgur.com/od2YQol.jpeg);
+--404-main-font: Cinzel;
+--404-main-font-color: #F2F2F2;
+--404-main-font-size: 12pt;
+--404-link-font: Cinzel;
+--404-link-font-color: #F2F2F2;
+--404-link-font-size: 12pt;
+--404-link-font-color-hover: #FFFFFF;
+--404-header-image:url(https://i.imgur.com/SKxcAR3.png);
+
+--404-gender-emoji: url(https://i.imgur.com/ECgTca4.gif);
+--404-medal-1:url(https://i.imgur.com/bBTgGoa.png);
+--404-medal-2:url(https://i.imgur.com/y4KUNYg.png);
+--404-medal-3:url(https://i.imgur.com/iTB3Wtl.png);
+--404-medal-4:url(https://i.imgur.com/y4KUNYg.png);
+--404-medal-5:url(https://i.imgur.com/mL6UBW2.png);
+}
+
+.border1 table table .pborder table td:nth-child(1) img{
+	content: var(--404-medal-1);
+}
+.border1 table table .pborder table td:nth-child(2) img{
+	content: var(--404-medal-2);
+}
+.border1 table table .pborder table td:nth-child(3) img{
+	content: var(--404-medal-3);
+}
+.border1 table table .pborder table td:nth-child(4) img{
+	content: var(--404-medal-4);
+}
+.border1 table table .pborder table td:nth-child(5) img{
+	content: var(--404-medal-5);
+}
+
+hr {display: none;}
+.border1 {border:none;}
+*, #background, #footer {background:transparent url("");border:none;}
+html {background:#000000;}
+body {background:#000000 top center var(--404-background-image) fixed repeat-y;}
+#headerimage {display:block;content:var(--404-header-image);}
+
+td {
+font-family: var(--404-main-font); 
+color: var(--404-main-font-color);
+font-size: var(--404-main-font-size);
+} 
+
+a{
+font-family: var(--404-link-font);
+font-size: var(--404-link-font-size);
+color: var(--404-link-font-color);
+}
+
+a:hover{
+color: var(--404-link-font-color-hover);
+}
+
+table:nth-child(1)>tbody>tr>td:nth-child(1)>table.hovertable:nth-child(1)>tbody:nth-child(1)>tr:nth-child(4)>td:nth-child(2){
+font-size: 00pt;
+background-image:var(--404-gender-emoji);
+background-size: contain;
+background-repeat: no-repeat;
+}
+</style>

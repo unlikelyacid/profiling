@@ -1,1 +1,4 @@
-
+.pborder:nth-child(5) table td:nth-child(1){
+content:url(https://i.imgur.com/gfHd5y7.png);
+width: 100%;
+}

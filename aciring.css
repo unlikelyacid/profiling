@@ -1,5 +1,5 @@
 .pborder:nth-child(5) .tops b::before{
-  content: "ANNIVERSARY ";
+  content: "ANNIVERSARY, ";
 }
 
 .pborder:nth-child(5) table::after{

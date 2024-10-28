@@ -1,3 +1,7 @@
+.pborder:nth-child(5) .tops b{
+  color: red;
+}
+
 .border1 table table hr+ .pborder table::after{
 content:"<hr><hr><hr>";
 }

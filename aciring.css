@@ -3,5 +3,5 @@
 }
 
 .pborder:nth-child(5) table::after{
-content:"<hr>";
+content: url(https://unlikelyacid.github.io/profiling/holder.html);
 }

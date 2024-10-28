@@ -1,5 +1,6 @@
 .pborder:nth-child(5) .tops b{
   color: red;
+  content: "ANNIVERSARY, MARRIAGE, RP, FAMILY & HOUSES";
 }
 
 .pborder:nth-child(5) table::after{

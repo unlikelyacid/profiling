@@ -2,6 +2,6 @@
   color: red;
 }
 
-.border1 table table hr+ .pborder table::after{
-content:"<hr><hr><hr>";
+.pborder:nth-child(5) table::after{
+content:"<hr>";
 }

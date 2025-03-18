@@ -1,3 +1,8 @@
+<center>
+<img src="">
+</center>
+
+
 <style>
 :root{
 --404-background-image: url(https://i.postimg.cc/5tZHHXsT/404-2k-Background.webp);
@@ -64,10 +69,7 @@ background-image:var(--404-gender-emoji);
 background-size: contain;
 background-repeat: no-repeat;
 }
-</style>
 
-
-<style>
 table[width="770"] td[height="175"]
 {
 color: #white;

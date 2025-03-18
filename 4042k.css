@@ -43,7 +43,7 @@ hr {display: none;}
 .border1 {border:none;}
 *, #background, #footer {background:transparent url("");border:none;}
 html {background:#000000;}
-body {background:#000000 top center var(--404-background-image); background-size: 2000px 1008px; background-repeat: y;}
+body {background:#000000 top center var(--404-background-image); background-size: 2000px 1008px; background-repeat: y; background-attachment: scroll;}
 #headerimage {display:block;content:var(--404-header-image);}
 
 td {

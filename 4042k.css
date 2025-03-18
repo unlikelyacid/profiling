@@ -44,7 +44,8 @@ hr {display: none;}
 .border1 {border:none;}
 *, #background, #footer {background:transparent url("");border:none;}
 html {background:#000000;}
-body {background:#000000 top center var(--404-background-image) fixed repeat-y;}
+body {background:#000000 background-size: auto top center var(--404-background-image);}
+
 #headerimage {display:block;content:var(--404-header-image);}
 
 td {

@@ -1,0 +1,84 @@
+<style>
+:root{
+--404-background-image: url(https://i.postimg.cc/5tZHHXsT/404-2k-Background.webp);
+--404-header-image:url(https://i.postimg.cc/rFykNh4N/2k-Hype-Header.gif);
+--404-main-font-color: #e35e10;
+--404-link-font-color: #f3ab46;
+--404-link-font-color-hover: #fdc5a2;
+--404-comment-background-image: url("https://i.postimg.cc/4yYPYq4f/404comment.gif");
+
+--404-main-font: Cinzel;
+--404-main-font-size: 12pt;
+--404-link-font: Cinzel;
+--404-link-font-size: 12pt;
+--404-gender-emoji: url(https://i.postimg.cc/4yYPYq4f/404comment.gif");
+--404-medal-1:url(https://i.postimg.cc/zvKxvqM5/d-e-f-a-u-l-t-medal.webp);
+--404-medal-2:url(https://i.postimg.cc/2jhG48cN/d-e-f-a-u-l-t-medal1.webp);
+--404-medal-3:url(https://i.postimg.cc/QNQgFYCX/d-e-f-a-u-l-t-medal2.webp);
+--404-medal-4:url(https://i.postimg.cc/mZydvgQN/d-e-f-a-u-l-t-medal3.webp);
+--404-medal-5:url(https://i.postimg.cc/25WG2kkW/d-e-f-a-u-l-t-medal4.webp);
+}
+
+.border1 table table .pborder table td:nth-child(1) img{
+content: var(--404-medal-1);
+}
+.border1 table table .pborder table td:nth-child(2) img{
+content: var(--404-medal-2);
+}
+.border1 table table .pborder table td:nth-child(3) img{
+content: var(--404-medal-3);
+}
+.border1 table table .pborder table td:nth-child(4) img{
+content: var(--404-medal-4);
+}
+.border1 table table .pborder table td:nth-child(5) img{
+content: var(--404-medal-5);
+}
+
+hr {display: none;}
+.border1 {border:none;}
+*, #background, #footer {background:transparent url("");border:none;}
+html {background:#000000;}
+body {background:#000000 top center var(--404-background-image) fixed repeat-y;}
+#headerimage {display:block;content:var(--404-header-image);}
+
+td {
+font-family: var(--404-main-font);
+color: var(--404-main-font-color);
+font-size: var(--404-main-font-size);
+}
+
+a{
+font-family: var(--404-link-font);
+font-size: var(--404-link-font-size);
+color: var(--404-link-font-color);
+}
+
+a:hover{
+color: var(--404-link-font-color-hover);
+}
+
+table:nth-child(1)>tbody>tr>td:nth-child(1)>table.hovertable:nth-child(1)>tbody:nth-child(1)>tr:nth-child(4)>td:nth-child(2){
+font-size: 00pt;
+background-image:var(--404-gender-emoji);
+background-size: contain;
+background-repeat: no-repeat;
+}
+</style>
+
+
+<style>
+table[width="770"] td[height="175"]
+{
+color: #white;
+border-width: 3px;-solid
+border-spacing: 0px;
+border-image: url("");
+border-image-slice: 90% 0% 0% 0%;
+border-color: #000000;
+background-size: 100%;
+background-color: none;
+background-repeat: no-repeat;
+background-image: var(--404-comment-background-image);
+}
+</style>

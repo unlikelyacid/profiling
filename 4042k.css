@@ -5,18 +5,18 @@
 
 <style>
 :root{
---404-background-image: url(https://i.postimg.cc/5tZHHXsT/404-2k-Background.webp);
+--404-background-image: url(https://i.postimg.cc/j5CNpVLQ/404-2k-Background.png);
 --404-header-image:url(https://i.postimg.cc/rFykNh4N/2k-Hype-Header.gif);
 --404-main-font-color: #e35e10;
 --404-link-font-color: #f3ab46;
 --404-link-font-color-hover: #fdc5a2;
---404-comment-background-image: url("https://i.postimg.cc/4yYPYq4f/404comment.gif");
+--404-comment-background-image: url(https://i.postimg.cc/4yYPYq4f/404comment.gif);
 
 --404-main-font: Cinzel;
 --404-main-font-size: 12pt;
 --404-link-font: Cinzel;
 --404-link-font-size: 12pt;
---404-gender-emoji: url(https://i.postimg.cc/4yYPYq4f/404comment.gif");
+--404-gender-emoji: url(https://i.postimg.cc/4yYPYq4f/404comment.gif);
 --404-medal-1:url(https://i.postimg.cc/zvKxvqM5/d-e-f-a-u-l-t-medal.webp);
 --404-medal-2:url(https://i.postimg.cc/2jhG48cN/d-e-f-a-u-l-t-medal1.webp);
 --404-medal-3:url(https://i.postimg.cc/QNQgFYCX/d-e-f-a-u-l-t-medal2.webp);
@@ -44,8 +44,7 @@ hr {display: none;}
 .border1 {border:none;}
 *, #background, #footer {background:transparent url("");border:none;}
 html {background:#000000;}
-body {background:#000000 background-size: auto top center var(--404-background-image);}
-
+body {background:#000000 top center var(--404-background-image) fixed repeat-y;}
 #headerimage {display:block;content:var(--404-header-image);}
 
 td {
@@ -84,4 +83,13 @@ background-color: none;
 background-repeat: no-repeat;
 background-image: var(--404-comment-background-image);
 }
+
+.pborder:nth-child(10) center:nth-child(1){
+background: rgba(0,0,0,0);
+}
+
+body {padding:0;margin:0;} *, .border1 {padding:0;}
+.menutab {background:transparent url("" );border:none;padding:0px;margin:0px;letter-spacing:0px;}
+.border1 {width:0;}
+
 </style>

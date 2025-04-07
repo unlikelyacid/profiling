@@ -23,7 +23,9 @@
 --404-medal-5:url(https://i.postimg.cc/25WG2kkW/d-e-f-a-u-l-t-medal4.webp);
 }
 
-.border1 table table .pborder table td:nth-child(1) img{
+
+
+.border1 table table .pborder td > table td:nth-child(1) img{
 content: var(--404-medal-1);
 }
 .border1 table table .pborder table td:nth-child(2) img{

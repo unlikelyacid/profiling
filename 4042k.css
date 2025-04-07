@@ -28,16 +28,16 @@
 .border1 table table .pborder td > table td:nth-child(1) img{
 content: var(--404-medal-1);
 }
-.border1 table table .pborder table td:nth-child(2) img{
+.border1 table table .pborder td > table td:nth-child(2) img{
 content: var(--404-medal-2);
 }
-.border1 table table .pborder table td:nth-child(3) img{
+.border1 table table .pborder td > table td:nth-child(3) img{
 content: var(--404-medal-3);
 }
-.border1 table table .pborder table td:nth-child(4) img{
+.border1 table table .pborder td > table td:nth-child(4) img{
 content: var(--404-medal-4);
 }
-.border1 table table .pborder table td:nth-child(5) img{
+.border1 table table .pborder td > table td:nth-child(5) img{
 content: var(--404-medal-5);
 }
 

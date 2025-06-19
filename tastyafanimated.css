@@ -1,0 +1,22 @@
+<style>
+@keyframes tasty{
+    0% {content: url(https://i.postimg.cc/SQ6btwRk/tastyaf300.gif);}
+    100% {content: url(https://i.postimg.cc/SQ6btwRk/tastyaf300.gif);}
+}
+
+style+ .pborder a img:hover{
+animation-name: tasty;
+animation-duration: 5s;
+animation-direction: alternate; 
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+style+ .pborder img:hover{
+animation-name: tasty;
+animation-duration: 5s;
+animation-direction: alternate; 
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+</style>

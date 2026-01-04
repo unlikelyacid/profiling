@@ -2,6 +2,9 @@
 @font-face {
 font-family: "MonAmourFraktur";
 src: url("https://cdn.staticdelivr.com/gh/unlikelyacid/profiling/main/MonAmourFraktur-Broken.ttf") format("truetype");
+font-weight: normal;
+font-style: normal;
+font-display: swap;
 }
 
 </style>

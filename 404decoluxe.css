@@ -7,13 +7,11 @@ font-style: normal;
 font-display: swap;
 }
 
-.MonAmourFraktur {
-font-family: "MonAmourFraktur";
-}
+
 
 p {
 color: green;
-font-family: "MonAmourFraktur";
+font: "MonAmourFraktur";
 }
 
 </style>

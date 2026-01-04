@@ -1,7 +1,7 @@
 <style>
 @font-face {
 font-family: "MA";
-src: url("https://github.com/unlikelyacid/profiling/blob/c1002c722a2f91de886fb820bc1d8dcdca0f6bc6/MonAmourFraktur-Broken.ttf") format("tff");
+src: url("./MonAmourFraktur-Broken.ttf") format("tff");
 font-weight: normal;
 font-style: normal;
 font-display: swap;

@@ -11,8 +11,9 @@ font-display: swap;
 font-family: "MonAmourFraktur";
 }
 
-* {
+p {
 color: green;
+font-family: "MonAmourFraktur";
 }
 
 </style>

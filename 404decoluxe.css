@@ -11,7 +11,7 @@ font-display: swap;
 
 p {
 color: green;
-font: "MonAmourFraktur";
+font-family: "MonAmourFraktur";
 }
 
 </style>
